@@ -3,6 +3,8 @@
 ```py
 import pandas as pd
 
-url = "https://github.com/cfn0324/data"
+url = "https://github.com/cfn0324/data/blob/main/data.xls"
 data = pd.read_csv(url)
+
+data.head()
 ```
